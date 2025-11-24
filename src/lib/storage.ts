@@ -48,7 +48,7 @@ export const deleteSavingsTarget = (id: string) => {
 // User Profile
 export const getUserProfile = (): UserProfile => {
   const data = localStorage.getItem(STORAGE_KEYS.PROFILE);
-  return data ? JSON.parse(data) : { name: 'Irwand', language: 'id', ngiritMode: false };
+  return data ? JSON.parse(data) : { name: 'Arek Malang', language: 'id', ngiritMode: false };
 };
 
 export const saveUserProfile = (profile: UserProfile) => {
