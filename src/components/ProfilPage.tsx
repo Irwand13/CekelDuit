@@ -9,7 +9,7 @@ import { Input } from './ui/input';
 import { Label } from './ui/label';
 import { Switch } from './ui/switch';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface ProfilPageProps {
   onNavigate: (page: any) => void;
@@ -89,7 +89,7 @@ export function ProfilPage({ onNavigate }: ProfilPageProps) {
           </div>
           <div>
             <h3 className="text-white">{profile.name}</h3>
-            <p className="text-purple-100 text-sm">Arek Malang 🏠</p>
+            <p className="text-purple-100 text-sm">Team Jirolupat</p>
           </div>
         </div>
       </div>
