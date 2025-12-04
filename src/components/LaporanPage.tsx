@@ -104,7 +104,7 @@ export function LaporanPage({ onNavigate }: LaporanPageProps) {
           <h2 className="text-white flex-1">Laporan Keuangan</h2>
         </div>
         
-        <p className="text-blue-50">Analisis keuanganmu secara detail</p>
+        <p className="text-blue-50">Ayo analisis keuanganmu secara detail</p>
       </div>
 
       {/* Period Selector */}
